@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Yeoman generator",
   "license": "MIT",
-  "main": "app/index.js",
+  "main": "generators/app/index.js",
   "repository": "youssef06/generator-frontapp",
   "author": {
     "name": "",
