@@ -1,0 +1,6 @@
+<%  if(useFrontendFramework == "bootstrap"){ %>@import "../lib/bootstrap-sass/assets/stylesheets/_bootstrap.scss";<% } %>
+<%  if(useFrontendFramework == "foundation"){ %>@import "../lib/foundation/scss/foundation.scss";<% } else { %>
+body {
+  margin: 20px;	
+}
+<% } %>

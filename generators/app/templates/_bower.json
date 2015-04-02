@@ -1,0 +1,9 @@
+{
+  "name": "<%= _.slugify(appname) %>",
+  "version": "0.1.0",
+  "dependencies": {
+    <% if(useFrontendFramework == "bootstrap" && usePreprocessor == "less") { %>"bootstrap": "~3.3.2"<% } %>
+    <% if(useFrontendFramework == "bootstrap" && usePreprocessor == "scss") { %>"bootstrap-sass": "~3.3.2"<% } %>
+    <% if(useFrontendFramework == "foundation") { %>"foundation": "zurb/bower-foundation#~5.5.1"<% } %>
+  }
+}

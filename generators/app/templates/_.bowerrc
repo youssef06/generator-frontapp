@@ -1,0 +1,4 @@
+{
+  "directory": "<%= srcFolders["lib"] %>",
+  "json": "bower.json"
+}
